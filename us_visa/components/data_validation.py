@@ -2,8 +2,12 @@ import json
 import sys
 
 import pandas as pd
-from evidently.model_profile import Profile
-from evidently.model_profile.sections import DataDriftProfileSection
+try:
+    from evidently.model_profile import Profile
+    from evidently.model_profile.sections import DataDriftProfileSection
+except ImportError:
+    from evidently.profile import Profile
+    from evidently.profile_sections import DataDriftProfileSection
 
 from pandas import DataFrame
 
