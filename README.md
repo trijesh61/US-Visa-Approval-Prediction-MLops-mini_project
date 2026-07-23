@@ -64,6 +64,4 @@ More MLOps mini-projects will be added here over time, with a growing focus on:
 **Trijesh** — AI & Data Science graduate, exploring MLOps, GenAI, and applied machine learning.
 [GitHub](https://github.com/trijesh61)
 
-## 📄 License
 
-This repository is intended for learning and portfolio purposes. Feel free to explore and reference the code.
